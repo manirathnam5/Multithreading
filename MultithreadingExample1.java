@@ -7,7 +7,6 @@ class MyThread extends Thread{
         System.out.println(" I am running thread") ;
     }
 
-
 }
 
 
