@@ -7,7 +7,30 @@ class  AccountThread implements Runnable{
     }
 }
 
-class MultithreadingExample1{
+
+class SavingsAccount extends Thread{
+
+
+    public void run(){
+        System.out.println("Savings account thread ") ;
+    }
+}
+
+
+class FixedAccount extends Thread{
+
+
+    public void run(){
+        System.out.println(" Fixed account thread ") ;
+    }
+}
+
+
+
+
+
+
+class MultithreadingExample2{
 
 
     public static void main(String[] arg) {
@@ -26,7 +49,10 @@ class MultithreadingExample1{
 
         t2.start();
 
-    
+         SavingsAccount sa = new SavingsAccount();
+         sa.start();
+         
+         
 
     }
 }
