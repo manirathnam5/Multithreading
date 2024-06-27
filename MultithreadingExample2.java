@@ -45,8 +45,6 @@ class MultithreadingExample2{
         AccountThread  act2 = new AccountThread();
 
         Thread t2 = new Thread(act2) ;
-
-
         t2.start();
 
          SavingsAccount sa = new SavingsAccount();
@@ -54,7 +52,7 @@ class MultithreadingExample2{
          
          FixedAccount fa = new FixedAccount();
          fa.start();
-         
+
          
 
     }
