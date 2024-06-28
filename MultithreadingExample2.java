@@ -52,7 +52,5 @@ class MultithreadingExample2{
          
          FixedAccount fa = new FixedAccount();
          fa.start();
-          
-
     }
 }
