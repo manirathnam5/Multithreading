@@ -8,7 +8,6 @@ class  AccountThread implements Runnable{
 
 }
 
-
 class SavingsAccount extends Thread{
 
 
