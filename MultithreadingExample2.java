@@ -5,6 +5,7 @@ class  AccountThread implements Runnable{
 
         System.out.println("Bank Account running the thread ") ;
     }
+
 }
 
 
