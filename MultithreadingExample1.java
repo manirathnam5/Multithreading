@@ -6,8 +6,6 @@ class MyThread extends Thread{
     }
 }
 
-
-
 class MyThread1 extends Thread{
 
 
