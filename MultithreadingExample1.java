@@ -7,8 +7,6 @@ class MyThread extends Thread{
 }
 
 class MyThread1 extends Thread{
-
-
     public void run(){
 
         System.out.println(" I am running thread 2") ;
