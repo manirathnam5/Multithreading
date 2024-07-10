@@ -8,9 +8,7 @@ class  AccountThread implements Runnable{
 class SavingsAccount extends Thread{
 
     public void run(){
-
         System.out.println("Savings account thread ") ;
-
     }
 }
 
