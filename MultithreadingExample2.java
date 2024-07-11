@@ -15,7 +15,6 @@ class SavingsAccount extends Thread{
 
 class FixedAccount extends Thread{
 
-
     public void run(){
         System.out.println(" Fixed account thread ") ;
     }
