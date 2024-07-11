@@ -27,13 +27,11 @@ class FixedAccount extends Thread{
 
 class MultithreadingExample2{
 
-
     public static void main(String[] arg) {
    
         AccountThread  act = new AccountThread();
 
         Thread t1 = new Thread(act) ;
-
 
         t1.start();
 
