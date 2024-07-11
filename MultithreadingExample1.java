@@ -22,7 +22,6 @@ class MyThread2 extends Thread{
 
 class MultithreadingExample1{
 
-
     public static void main(String[] arg) {
 
         MyThread  t1  = new MyThread();
