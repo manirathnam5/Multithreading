@@ -15,7 +15,6 @@ class MyThread1 extends Thread{
 class MyThread2 extends Thread{
 
     public void run(){
-
         System.out.println(" I am running thread 3") ;
     }
 }
