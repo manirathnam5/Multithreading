@@ -17,7 +17,6 @@ class MyThread extends Thread{
 }
 
 
-
 class MultithreadingExample3{
 
 
