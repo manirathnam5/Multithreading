@@ -28,6 +28,5 @@ class MultithreadingExample3{
        t1.setName("Second Thread ");
        t2.start();
        
-
     }
 }
