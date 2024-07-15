@@ -28,7 +28,6 @@ class NamingThreadExample1{
   System.out.println("After changing name of t1:"+t1.getName());  
   System.out.println("After changing name of thread t2 : " + t2.getName());
 
-  
      }  
   
    }  
