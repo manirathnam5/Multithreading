@@ -8,7 +8,8 @@ class MyThread extends Thread{
             } catch(InterruptedException ie){
                 System.out.println(ie);
             }
-            System.out.println(i +"   "+ Thread.currentThread().getName() + " Thread running " );
+       
+     System.out.println(i +"   "+ Thread.currentThread().getName() + " Thread running " );
         }
     }
 }
