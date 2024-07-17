@@ -24,7 +24,6 @@ class MultithreadingExample3{
 
        MyThread  t2 = new MyThread();
        t1.setName("Second Thread ");
-       t2.start();
-       
+       t2.start();   
     }
 }
