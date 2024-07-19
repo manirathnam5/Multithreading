@@ -14,7 +14,6 @@ class MyThread extends Thread{
     }
 }
 
-
 class MultithreadingExample3{
 
     public static void main(String[] arg){
