@@ -19,10 +19,6 @@ class FixedAccount extends Thread{
 }
 
 
-
-
-
-
 class MultithreadingExample2{
 
     public static void main(String[] arg) {
