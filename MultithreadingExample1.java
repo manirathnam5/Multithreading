@@ -30,7 +30,6 @@ class MultithreadingExample1{
         MyThread1  t2 = new MyThread1();
         t2.start();
 
-
         MyThread2  t3 = new MyThread2();
         t3.start();
 
