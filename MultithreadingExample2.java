@@ -17,8 +17,6 @@ class FixedAccount extends Thread{
         System.out.println(" Fixed account thread ") ;
     }
 }
-
-
 class MultithreadingExample2{
 
     public static void main(String[] arg) {
