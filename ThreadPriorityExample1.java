@@ -7,8 +7,7 @@ public class ThreadPriorityExample1 extends Thread
 // Whenever the start() method is called by a thread  
 // the run() method is invoked  
   public void run()  
-   {  
-  // the print statement  
+   {   
     System.out.println("Inside the run() method");  
   }  
 }
