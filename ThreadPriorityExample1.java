@@ -2,8 +2,7 @@ import java.lang.*;
   
 public class ThreadPriorityExample1 extends Thread   
 {  
-  
-// Method 1  
+
 // Whenever the start() method is called by a thread  
 // the run() method is invoked  
   public void run()  
