@@ -1,7 +1,6 @@
 import java.lang.*;  
   
 public class ThreadPriorityExample1 extends Thread   
-
 {  
 
 // Whenever the start() method is called by a thread  
