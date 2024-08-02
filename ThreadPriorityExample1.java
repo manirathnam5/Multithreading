@@ -12,7 +12,6 @@ public class ThreadPriorityExample1 extends Thread
 
 class MultiThreadingExample4{
   
-// the main method  
  public static void main(String argvs[])  
  {  
   
