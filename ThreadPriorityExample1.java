@@ -2,8 +2,8 @@ import java.lang.*;
   
 public class ThreadPriorityExample1 extends Thread   
 {  
-// the run() method is invoked  
-  public void run()  
+
+ public void run()  
    {   
     System.out.println("Inside the run() method");  
   }  
