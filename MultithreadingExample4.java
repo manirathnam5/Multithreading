@@ -20,7 +20,6 @@ class TestDaemonThread1 extends Thread {
   TestDaemonThread1 t3 = new TestDaemonThread1();  
   
   t1.setDaemon(true);//now t1 is daemon thread  
-    
   t1.start();//starting threads  
   t2.start();  
   t3.start();  
