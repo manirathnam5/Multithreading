@@ -29,7 +29,6 @@
 	     TestDaemonThread  td1 = new TestDaemonThread();
 	     td1.setDaemon(true);
 	     td1.start();
-
 	    
 	    TestDaemonThread  td2 = new TestDaemonThread();
 	    td2.start();
